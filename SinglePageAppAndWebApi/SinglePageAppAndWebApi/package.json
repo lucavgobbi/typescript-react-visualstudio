@@ -14,8 +14,6 @@
   },
   "devDependencies": {
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2",
-    "typescript": "^1.8.10",
-    "webpack": "^1.13.1"
+    "ts-loader": "^0.8.2"
   }
 }

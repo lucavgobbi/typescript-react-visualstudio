@@ -303,6 +303,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\src\components\alert.tsx" />
+    <TypeScriptCompile Include="Scripts\src\components\well.tsx" />
     <TypeScriptCompile Include="Scripts\src\index.tsx" />
     <TypeScriptCompile Include="typings\react\react-dom.d.ts" />
     <TypeScriptCompile Include="typings\react\react.d.ts" />

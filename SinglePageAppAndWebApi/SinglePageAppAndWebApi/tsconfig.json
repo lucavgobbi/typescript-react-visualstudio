@@ -7,8 +7,8 @@
     "target": "es5",
     "jsx": "react"
   },
-  "files": [
-    "./typings/tsd.d.ts",
-    "./Scripts/src/index.tsx"
+  "exclude": [
+    "node_modules",
+    "wwwroot"
   ]
 }
