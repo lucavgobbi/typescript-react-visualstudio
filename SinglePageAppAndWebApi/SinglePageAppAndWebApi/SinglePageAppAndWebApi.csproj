@@ -291,7 +291,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="tsconfig.json" />
     <Content Include="webpack.config.js" />
-    <Content Include="tsd.json" />
+    <Content Include="typings.json" />
+    <Content Include="typings\globals\react\typings.json" />
+    <Content Include="typings\globals\react-dom\typings.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -306,9 +308,9 @@
     <TypeScriptCompile Include="Scripts\src\components\alert.tsx" />
     <TypeScriptCompile Include="Scripts\src\components\well.tsx" />
     <TypeScriptCompile Include="Scripts\src\index.tsx" />
-    <TypeScriptCompile Include="typings\react\react-dom.d.ts" />
-    <TypeScriptCompile Include="typings\react\react.d.ts" />
-    <TypeScriptCompile Include="typings\tsd.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react-dom\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\react\index.d.ts" />
+    <TypeScriptCompile Include="typings\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
